@@ -11,6 +11,7 @@ function va(){
     else{
         alert("No eres uno de los creadores de Mad Cat. Bienvenido" + " " + a + " a Mad Cat"); 
         document.getElementById("hola").innerHTML = "Hola" + " " + a;
+        document.getElementById("hola").innerHTML = "No puedes hacer todo las cosas que los vips pueden hacer";
         $(document).read(function(){
             $("#vip").hide();
         });
